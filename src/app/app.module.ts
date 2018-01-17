@@ -31,6 +31,12 @@ import { RadioPlayer } from '../providers/radio-service';
 import * as ionicGalleryModal from 'ionic-gallery-modal';
 import { HAMMER_GESTURE_CONFIG } from '@angular/platform-browser';
 
+import { Pro } from '@ionic/pro';
+
+const IonicPro = Pro.init('88750', {
+  appVersion: "0.0.0"
+});
+
 
 //********** firebase configuration  ************ */
 export const config = { 
